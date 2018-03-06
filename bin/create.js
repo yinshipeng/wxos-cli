@@ -43,7 +43,7 @@ module.exports = async function create (template, projectName) {
  */
 function downloadAndGenerate (template, templateDir) {
     const templateList = {
-        wxos: 'yinshipeng/wxos-template'
+        'wxos-template': 'yinshipeng/wxos-template'
     }
 
     if (!templateList.hasOwnProperty(template)) {
